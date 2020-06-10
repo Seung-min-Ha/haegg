@@ -8,7 +8,7 @@ p {position: absolute;
    font-weight: Regular;
    font-size: 85px;
    font-family: arial."nanum".sans;}
-   #logo {position: absolute;}
+   #logo {position: absolute;  z-index: 1;}
 div[class="m1"] {
   width:70px;
   height:1080px;
@@ -50,13 +50,13 @@ div[class="m4"] {
   transition:all .35;
 }
 div[class="sd1"]{
-  width:1500px;
+  width:1437px;
   height:1080px;
   background:#fdfad1;
   position:fixed;
   top:0;
-  right:-1500px;
-  transition:all 35;
+  right:-1437px;
+  transition:all .3s ease;
 }
 div[class="sd2"]{
   width:1507px;
@@ -65,7 +65,7 @@ div[class="sd2"]{
   position:fixed;
   top:0;
   right:-1507px;
-  transition:all .35
+  transition:all .3s ease;
 }
 div[class="sd3"]{
   width:1584px;
@@ -74,7 +74,7 @@ div[class="sd3"]{
   position:fixed;
   top:0;
   right:-1584px;
-  transition:all .35
+  transition:all .3s ease;
 }
 div[class="sd4"]{
   width:1661px;
@@ -83,14 +83,13 @@ div[class="sd4"]{
   position:fixed;
   top:0;
   right:-1661px;
-  transition:all .35
+  transition:all .3s ease;
 }
 
 #allmenu {display: flex; float: right;}
 input[id="menu1"] {display: none;}
 input[id="menu1"] + label {
-    position:fixed;
-display: block;
+display: inline-block;
 cursor: pointer;
 margin: 10px;
 height: 50px;
@@ -98,9 +97,10 @@ width: 50px;
 background: url("rotn.png");
 background-size:cover;
 transition:all .35s;
+z-index: 1;
 }
-input[id="menu1"]:checked + label {background-image: url("ghktkfvy.png"); z-index: 4;}
-input[id="menu1"]:checked + label + div[class="sd1"] {right: 231px;}
+input[id="menu1"]:checked + label { background-image: url("ghktkfvy.png"); z-index: 1; }
+input[id="menu1"]:checked + label + div[class="sd1"] {right: 301px;}
 
 input[id="menu2"] {display: none;}
 input[id="menu2"] + label {
@@ -113,8 +113,9 @@ width: 50px;
 background: url("tlrks.png");
 background-size:cover;
 transition:all .35s;
+z-index: 1;
 }
-input[id="menu2"]:checked + label { background-image: url("ghktkfvy.png"); z-index: 3;}
+input[id="menu2"]:checked + label { background-image: url("ghktkfvy.png"); z-index: 1;}
 input[id="menu2"]:checked + label + div[class="sd2"] {right: 224px;}
 
 input[id="menu3"] {display: none;}
@@ -128,10 +129,10 @@ width: 50px;
 background: url("sksdleh.png");
 background-size:cover;
 transition:all .35s;
+z-index: 1;
 }
-input[id="menu3"]:checked + label { background-image: url("ghktkfvy.png"); z-index: 2;}
+input[id="menu3"]:checked + label { background-image: url("ghktkfvy.png"); z-index: 1;}
 input[id="menu3"]:checked + label + div[class="sd3"] {right: 147px;}
-input[id="menu3"]:checked:root {display:none;}
 
 input[id="menu4"] {display: none;}
 input[id="menu4"] + label {
@@ -144,8 +145,11 @@ width: 50px;
 background: url("qldyd.png");
 background-size:cover;
 transition:all .35s;
+z-index: 1;
 }
 input[id="menu4"]:checked + label { background-image: url("ghktkfvy.png"); z-index: 1;}
 input[id="menu4"]:checked + label + div[class="sd4"] {right: 70px;}
 
 #hell {position:fixed; left: 625px}
+
+.cook {background-color: ""}
