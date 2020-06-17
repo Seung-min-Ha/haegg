@@ -4,8 +4,56 @@
 <meta charset="utf-8">
 <title>30</title>
 <link rel="stylesheet" href="style.css">
-<script type="text/javascript" src="./js/jquery-1.12.3.js"></script>
-<script type="text/javascript" src="./js/slide.js"></script>
+<link rel="stylesheet" href="style1.css">
+<script type="text/javascript">
+
+function check_only(chk) {
+    var obj = document.getElementsByName("chkbox");
+    for(var i=0; i<obj.length; i++){
+        if(obj[i] != chk){
+            obj[i].checked = false;
+        }
+    }
+}
+
+function pos(chk) {
+    var obj = document.getElementsByName("po");
+    for(var i=0; i<obj.length; i++){
+        if(obj[i] != chk){
+            obj[i].checked = false;
+        }
+    }
+}
+
+function oos(chk) {
+    var obj = document.getElementsByName("oo");
+    for(var i=0; i<obj.length; i++){
+        if(obj[i] != chk){
+            obj[i].checked = false;
+        }
+    }
+}
+
+function ios(chk) {
+    var obj = document.getElementsByName("io");
+    for(var i=0; i<obj.length; i++){
+        if(obj[i] != chk){
+            obj[i].checked = false;
+        }
+    }
+}
+
+function uos(chk) {
+    var obj = document.getElementsByName("uo");
+    for(var i=0; i<obj.length; i++){
+        if(obj[i] != chk){
+            obj[i].checked = false;
+        }
+    }
+}
+
+</script>
+
 </head>
 
 <body>
@@ -14,49 +62,149 @@
 </a>
 <div id= "allmenu">
   <div class="m1">
-<input type="checkbox" id="menu1"><label for="menu1"></label>
+<input type="checkbox" id="menu1" name="chkbox" onclick="check_only(this)"><label for="menu1"></label>
 <div class="sd1">
-  <div class="group1">
-  <div class="cook1">
-    </div>
-    <div class="cook2">
-      </div>
-      <div class="cook3">
-        </div>
-        <div class="group2">
-        <div class="cook4">
-          </div>
-          <div class="cook5">
-            </div>
-            <div class="cook6">
-            </div>
-     </div>
-   </div>
+  <div id="slide">
+    <input type="checkbox" name="po" id="pos1" onclick="pos(this)" checked>
+    <input type="checkbox" name="po" id="pos2" onclick="pos(this)">
+    <input type="checkbox" name="po" id="pos3" onclick="pos(this)">
+    <input type="checkbox" name="po" id="pos4" onclick="pos(this)">
+    <input type="checkbox" name="po" id="pos5" onclick="pos(this)">
+    <input type="checkbox" name="po" id="pos6" onclick="pos(this)">
+    <input type="checkbox" name="po" id="pos7" onclick="pos(this)">
+    <ul>
+      <li><img src="img/ck4.png" id="ck4"></li>
+      <li><img src="img/ck1.png" id="ck1"></li>
+      <li><img src="img/ck5.png" id="ck5"></li>
+      <li><img src="img/ck6.png" id="ck6"></li>
+      <li><img src="img/ck8.png" id="ck8"></li>
+      <li><img src="img/ck9.png" id="ck9"></li>
+      <li><img src="img/ck17.png" id="ck17"></li>
+    </ul>
+    <p class="pos">
+      <label for="pos1">1</label>
+      <label for="pos2">2</label>
+      <label for="pos3">3</label>
+      <label for="pos4">4</label>
+      <label for="pos5">5</label>
+      <label for="pos6">6</label>
+      <label for="pos7">7</label>
+    </p>
+  </div>
+
   </div>
  </div>
 </div>
 
 <div class="m2">
-<input type="checkbox" id="menu2"><label for="menu2"></label>
+<input type="checkbox" id="menu2" name="chkbox" onclick="check_only(this)"><label for="menu2"></label>
 <div class="sd2">
+  <div id="slide1">
+    <input type="checkbox" name="oo" id="oos1" onclick="oos(this)" checked>
+    <input type="checkbox" name="oo" id="oos2" onclick="oos(this)">
+    <input type="checkbox" name="oo" id="oos3" onclick="oos(this)">
+    <input type="checkbox" name="oo" id="oos4" onclick="oos(this)">
+    <input type="checkbox" name="oo" id="oos5" onclick="oos(this)">
+    <input type="checkbox" name="oo" id="oos6" onclick="oos(this)">
+    <input type="checkbox" name="oo" id="oos7" onclick="oos(this)">
+    <input type="checkbox" name="oo" id="oos8" onclick="oos(this)">
+    <ul>
+      <li><img src="img/ck10.png" id="ck10"></li>
+      <li><img src="img/ck14.png" id="ck14"></li>
+      <li><img src="img/ck20.png" id="ck20"></li>
+      <li><img src="img/ck7.png" id="ck7"></li>
+      <li><img src="img/ck12.png" id="ck12"></li>
+      <li><img src="img/ck21.png" id="ck21"></li>
+      <li><img src="img/ck16.png" id="ck16"></li>
+      <li><img src="img/ck19.png" id="ck19"></li>
+    </ul>
+    <p class="oos">
+      <label for="oos1">1</label>
+      <label for="oos2">2</label>
+      <label for="oos3">3</label>
+      <label for="oos4">4</label>
+      <label for="oos5">5</label>
+      <label for="oos6">6</label>
+      <label for="oos7">7</label>
+      <label for="oos8">8</label>
+    </p>
+  </div>
 </div>
 </div>
 
 <div class="m3">
-<input type="checkbox" id="menu3"><label for="menu3"></label>
+<input type="checkbox" id="menu3" name="chkbox" onclick="check_only(this)"><label for="menu3"></label>
 <div class="sd3">
+  <div id="slide2">
+    <input type="checkbox" name="io" id="ios1" onclick="ios(this)" checked>
+    <input type="checkbox" name="io" id="ios2" onclick="ios(this)">
+    <input type="checkbox" name="io" id="ios3" onclick="ios(this)">
+    <input type="checkbox" name="io" id="ios4" onclick="ios(this)">
+    <input type="checkbox" name="io" id="ios5" onclick="ios(this)">
+    <input type="checkbox" name="io" id="ios6" onclick="ios(this)">
+    <input type="checkbox" name="io" id="ios7" onclick="ios(this)">
+    <input type="checkbox" name="io" id="ios8" onclick="ios(this)">
+    <ul>
+      <li><img src="img/ck27.png" id="ck27"></li>
+      <li><img src="img/ck26.png" id="ck26"></li>
+      <li><img src="img/ck18.png" id="ck18"></li>
+      <li><img src="img/ck13.png" id="ck13"></li>
+      <li><img src="img/ck11.png" id="ck11"></li>
+      <li><img src="img/ck30.png" id="ck30"></li>
+      <li><img src="img/ck3.png" id="ck3"></li>
+      <li><img src="img/ck2.png" id="ck2"></li>
+    </ul>
+    <p class="ios">
+      <label for="ios1">1</label>
+      <label for="ios2">2</label>
+      <label for="ios3">3</label>
+      <label for="ios4">4</label>
+      <label for="ios5">5</label>
+      <label for="ios6">6</label>
+      <label for="ios7">7</label>
+      <label for="ios8">8</label>
+    </p>
+  </div>
 </div>
 </div>
 
 <div class="m4">
-<input type="checkbox" id="menu4"><label for="menu4"></label>
+<input type="checkbox" id="menu4" name="chkbox" onclick="check_only(this)"><label for="menu4"></label>
 <div class="sd4">
+  <div id="slide3">
+    <input type="checkbox" name="uo" id="uos1" onclick="uos(this)" checked>
+    <input type="checkbox" name="uo" id="uos2" onclick="uos(this)">
+    <input type="checkbox" name="uo" id="uos3" onclick="uos(this)">
+    <input type="checkbox" name="uo" id="uos4" onclick="uos(this)">
+    <input type="checkbox" name="uo" id="uos5" onclick="uos(this)">
+    <input type="checkbox" name="uo" id="uos6" onclick="uos(this)">
+    <input type="checkbox" name="uo" id="uos7" onclick="uos(this)">
+    <ul>
+      <li><img src="img/ck23.png" id="ck23"></li>
+      <li><img src="img/ck29.png" id="ck29"></li>
+      <li><img src="img/ck28.png" id="ck28"></li>
+      <li><img src="img/ck22.png" id="ck22"></li>
+      <li><img src="img/ck24.png" id="ck24"></li>
+      <li><img src="img/ck15.png" id="ck15"></li>
+      <li><img src="img/ck25.png" id="ck25"></li>
+    </ul>
+    <p class="uos">
+      <label for="uos1">1</label>
+      <label for="uos2">2</label>
+      <label for="uos3">3</label>
+      <label for="uos4">4</label>
+      <label for="uos5">5</label>
+      <label for="uos6">6</label>
+      <label for="uos7">7</label>
+    </p>
+  </div>
 </div>
 </div>
 
 </div>
 
-<img src="에그인헬.png" width="907" height="822" align="right" id="hell">
+<img src="hell.png" width="907" height="822" id="hell">
+
 <p id="text">
   언 제 나<br>
   누 구 나<br>
