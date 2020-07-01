@@ -1,0 +1,97 @@
+body {background-color: #E6E6E6;}
+#main {
+       width:1000px; margin:0 auto;}
+#sb1 {background-color: white; border:1px #E6E6E6 solid;
+       width: 700px; float:left;}
+#sb2 {background-color: white; border:1px #E6E6E6 solid;
+       position:fixed;
+       width: 290px;
+       height:600px;
+       float:left;
+       left: 70%;
+       top:15%;}
+
+       .main {
+         font-weight: 900;
+         margin-top: 60px;
+         font-size: 25px;
+         color: #333333;
+         text-align: center;
+         font-family: arial."nanum".sans-serif;}
+
+       hr {width: 80%; margin:0 auto; border:1px #e5a673 solid;}
+       .mid{margin-top:25px;
+         margin-left: 113px;
+       }
+
+       pre {color: #424242; font-family: arial."nanum".sans-serif; }
+
+       .wofy {color: #e5a673;
+         font-size: 20px;
+         font-family: arial."nanum".sans-serif;
+         text-align: center;
+         margin-top: 15px;
+       }
+       .wofy1 {color: #424242;
+         font-size: 15px;
+         font-family: arial."nanum".sans-serif;
+         text-align: center;
+         }
+
+       #ck1 {margin-top: 75px; margin-left: 175px;}
+       #ck2 {margin-top: 75px; margin-left: 175px;}
+       #ck3 {margin-top: 75px; margin-left: 175px;}
+       #ck4 {margin-top: 75px; margin-left: 175px;}
+       #ck5 {margin-top: 75px; margin-left: 175px;}
+       #ck6 {margin-top: 75px; margin-left: 175px;}
+       #ck7 {margin-top: 75px; margin-left: 175px;}
+       #ck8 {margin-top: 75px; margin-left: 175px;}
+       #ck9 {margin-top: 75px; margin-left: 175px;}
+       #ck10 {margin-top: 75px; margin-left: 175px;}
+       #ck11 {margin-top: 75px; margin-left: 175px;}
+       #ck12 {margin-top: 75px; margin-left: 175px;}
+       #ck13 {margin-top: 75px; margin-left: 175px;}
+       #ck14 {margin-top: 75px; margin-left: 175px;}
+       #ck15 {margin-top: 75px; margin-left: 175px;}
+       #ck16 {margin-top: 75px; margin-left: 175px;}
+       #ck17 {margin-top: 75px; margin-left: 175px;}
+       #ck18 {margin-top: 75px; margin-left: 175px;}
+       #ck19 {margin-top: 75px; margin-left: 175px;}
+       #ck20 {margin-top: 75px; margin-left: 175px;}
+       #ck21 {margin-top: 75px; margin-left: 175px;}
+       #ck22 {margin-top: 75px; margin-left: 175px;}
+       #ck23 {margin-top: 75px; margin-left: 175px;}
+       #ck24 {margin-top: 75px; margin-left: 175px;}
+       #ck25 {margin-top: 75px; margin-left: 175px;}
+       #ck26 {margin-top: 75px; margin-left: 175px;}
+       #ck27 {margin-top: 75px; margin-left: 175px;}
+       #ck28 {margin-top: 75px; margin-left: 175px;}
+       #ck29 {margin-top: 75px; margin-left: 175px;}
+       #ck30 {margin-top: 75px; margin-left: 175px;}
+
+       ul,li{list-style:none;}
+
+       #wofylogo {
+         color: #424242;
+         font-weight: 900px;
+         font-size: 30px;
+         font-family: arial."nanum".sans-serif;
+         text-align: center;
+         }
+       #wofybox {background-color: #fdfad1;
+         width:250px;
+         border: 1px white solid;
+         margin:0 auto;}
+
+      #lsp {
+      margin:0 auto;
+      width: 650px;
+      }
+      .lsp1 {
+        height: 200px;
+        margin-top: 10px;
+        color: #424242;
+        font-size: 20px;
+        font-family: arial."nanum".sans-serif;}
+
+      .imgf {float:right;}
